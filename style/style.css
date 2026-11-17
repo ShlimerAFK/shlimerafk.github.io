@@ -1,0 +1,237 @@
+:root {
+    --header_height: 10%;
+    --color_1: #010736;
+    --color_2: #0D1C42;
+    --color_3: #22396F;
+    --color_4: #FCF1D0;
+}
+
+h1 {
+
+    margin: 0;
+
+}
+
+h3 {
+
+    margin: 0;
+
+}
+
+h4 {
+
+    margin: 0;
+
+}
+
+body {
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--color_2);
+
+    font-family: Tektur;
+
+}
+
+/* HEADER */
+
+header {
+
+    display: flex;
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 4rem;
+
+    justify-content: start;
+    align-items: center;
+
+    margin-top: 0.5rem;
+
+}
+
+header h1 {
+
+    margin-left: 2rem;
+    font-size: 2rem;
+
+    color: white;
+
+}
+
+/* NAV */
+
+nav {
+
+    display: flex;
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 5rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav_links_container {
+
+    display: flex;
+
+    width: 50%;
+
+    height: fit-content;
+    min-height: 5rem;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#nav_links_container a {
+
+    font-size: 1.5rem;
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+/* MAIN */
+
+main {
+
+    display: flex;
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 5rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#sub_main {
+
+    display: flex;
+
+    width: 40rem;
+
+    height: fit-content;
+    min-height: 10rem;
+
+    padding-top: 5rem;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+section {
+
+    display: flex;
+
+    width: 80%;
+
+    height: fit-content;
+    min-height: 5rem;
+
+    flex-direction: column;
+
+    margin-bottom: 5rem;
+
+    background-color: white;
+
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 10px rgb(43, 43, 43, 0.5);
+
+}
+
+.section_title {
+
+    display: flex;
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 5rem;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.section_title h3 {
+
+    font-size: 2rem;
+
+}
+
+article {
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 10rem;
+
+}
+
+article b {
+    font-weight: 500;
+
+}
+
+article li {
+
+    margin-right: 2rem;
+    font-size: 1.1rem;
+
+}
+
+.article_title {
+
+    width: 100%;
+
+    height: fit-content;
+    min-height: 1rem;
+
+}
+
+.article_title h4 {
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+}
+
+@font-face {
+    font-family: Tektur;
+    src: url(/assets/Tektur.ttf);
+}
+
+@font-face {
+    font-family: Tektur;
+    src: url(/assets/static/Tektur-SemiBold.ttf);
+    font-weight: bold;
+}
