@@ -49,13 +49,15 @@ header {
     width: 100%;
 
     height: fit-content;
-    min-height: 4rem;
+    min-height: 4.5rem;
 
     justify-content: start;
     align-items: center;
 
-    margin-top: 0.5rem;
+    position: sticky;
+    top: 0;
 
+    background-color: var(--color_2);
 }
 
 header h1 {
@@ -80,6 +82,11 @@ nav {
 
     justify-content: center;
     align-items: center;
+
+    position: sticky;
+    top: 4.5rem;
+
+    background-color: var(--color_2);
 
 }
 
