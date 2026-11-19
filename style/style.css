@@ -94,7 +94,8 @@ nav {
 
     display: flex;
 
-    width: 50%;
+    width: fit-content;
+    min-width: 50%;
 
     height: fit-content;
     min-height: 5rem;
@@ -236,6 +237,8 @@ article {
 article b {
 
     font-weight: 500;
+
+    font-size: 1.2rem;
 
 }
 
