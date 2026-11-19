@@ -1,0 +1,33 @@
+{
+    "index": [
+        {
+            "title": " Introduction",
+            "articles": [
+                {
+                    "type": "text",
+                    "has_title": false,
+                    "text": "Hello, my name is Jonathan, Im a 4th year technology student at NTI, studying from my upper secondary school engineering degree in Information Technology."
+                },
+                {
+                    "type": "list",
+                    "has_title": true,
+                    "title": "AHH",
+                    "items": [
+                        {
+                            "name": "yes",
+                            "text": "ahhhh"
+                        },
+                        {
+                            "name": "yes",
+                            "text": "ahhhh"
+                        },
+                        {
+                            "name": "yes",
+                            "text": "ahhhh"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
