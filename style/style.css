@@ -230,7 +230,7 @@ main {
     margin-bottom: 2rem;
     margin-top: 2rem;
 
-    scroll-margin-top: 15rem;
+    scroll-margin-top: 13rem;
 
 }
 
@@ -366,12 +366,12 @@ article b {
 
 @font-face {
     font-family: Tektur;
-    src: url(/assets/Tektur.ttf);
+    src: url(../assets/Tektur.ttf);
 }
 
 @font-face {
     font-family: Tektur;
-    src: url(/assets/static/Tektur-SemiBold.ttf);
+    src: url(../assets/static/Tektur-SemiBold.ttf);
     font-weight: bold;
 }
 
